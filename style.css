@@ -2,3 +2,35 @@
   margin-left : 80px;
   font-size : 18px;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px 20px;
+  justify-content: center;
+}
+
+.score{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px 80px 80px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heroes, .villains{
+    padding: 10px;
+  }
+
+#strength{
+  font-size: 30px;
+  
+}
+
+.hero1, .hero2, .villain1, .villain2{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px lightgray;
+  text-align: center;
+  padding: 10px;
+}
